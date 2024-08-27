@@ -1,0 +1,5 @@
+--SELECT DISTINCT replacement_cost FROM film ORDER BY replacement_cost;
+--SELECT COUNT(DISTINCT replacement_cost) AS unique_replacement_cost_count FROM film;
+--SELECT COUNT(*) AS film_count FROM film WHERE title LIKE 'T%' AND rating = 'G';
+--SELECT COUNT(*) AS five_character_country_count FROM country WHERE LENGTH(country) = 5;
+--SELECT COUNT(*) AS city_count FROM city WHERE city ILIKE '%r';
